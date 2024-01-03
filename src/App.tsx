@@ -12,7 +12,6 @@ function App() {
         {/* Add your main content here */}
       </div>
 
-      {/* Render the SidePanel component */}
     </div>
   );
 }

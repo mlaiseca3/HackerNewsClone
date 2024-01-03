@@ -11,6 +11,17 @@
   padding: 16px;
 }
 
+.side-panel ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.side-panel li {
+	margin-bottom: 10px; /* Add some spacing between list items */
+}
+
+
 .main-content {
   flex-grow: 1;
   padding: 16px;
