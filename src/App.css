@@ -1,0 +1,28 @@
+/* styles.css */
+
+.app {
+  display: flex;
+  height: 100vh; /* 100% of the viewport height */
+}
+
+.side-panel {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 16px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 16px;
+}
+
+
+/* styles.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
