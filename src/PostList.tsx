@@ -1,11 +1,11 @@
 import {useState} from 'react'; 
 
 function UpvoteButton({post}) {
-
-	const [count, setCount] = useState(0);
+	const [count, setCount] = useState(post.upvotes);
 
 	function handleClick() {
 		setCount(count + 1);
+		post.upvotes = count + 1
 	}	
 
 	return (
